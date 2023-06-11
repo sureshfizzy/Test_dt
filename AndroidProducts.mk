@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_sweet.mk
+    $(LOCAL_DIR)/nightshade_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_sweet-user \
-    xtended_sweet-userdebug \
-    xtended_sweet-eng
+    nightshade_sweet-user \
+    nightshade_sweet-userdebug \
+    nightshade_sweet-eng

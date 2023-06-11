@@ -12,22 +12,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
 # Inherit common Xtended OS  Stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 2160
-PRODUCT_NAME := xtended_sweet
+$(call inherit-product, vendor/nightshade/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
+PRODUCT_NAME := nightshade_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 10 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Xtended Stuffs
-XTENDED_BUILD_MAINTAINER := Niranjan&Suresh
-XTENDED_BUILD_TYPE := OFFICIAL
-WITH_GAPPS := true
+# NightShade Stuffs
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_BLUR := true
 TARGET_SHIP_GCAM_GO := false
-
-# SoC
-PROCESSOR_MODEL := SM6150
